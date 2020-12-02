@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC3DEBF224E6B5BD003D6E65 /* GeneratePathOLD.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3DEBF124E6B5BD003D6E65 /* GeneratePathOLD.swift */; };
+		FC736D822487AAAF00636FDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC736D812487AAAF00636FDD /* AppDelegate.swift */; };
+		FC736D842487AAAF00636FDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC736D832487AAAF00636FDD /* SceneDelegate.swift */; };
+		FC736D862487AAAF00636FDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC736D852487AAAF00636FDD /* ViewController.swift */; };
+		FC736D892487AAAF00636FDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC736D872487AAAF00636FDD /* Main.storyboard */; };
+		FC736D8B2487AAB600636FDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC736D8A2487AAB600636FDD /* Assets.xcassets */; };
+		FC736D8E2487AAB600636FDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC736D8C2487AAB600636FDD /* LaunchScreen.storyboard */; };
+		FC736D992487AAB700636FDD /* Automatic_Efficient_Mowing_PathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC736D982487AAB700636FDD /* Automatic_Efficient_Mowing_PathTests.swift */; };
+		FC736DA42487AAB700636FDD /* Automatic_Efficient_Mowing_PathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC736DA32487AAB700636FDD /* Automatic_Efficient_Mowing_PathUITests.swift */; };
+		FCD2106B24EF762000145B95 /* RouteDrawers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD2106A24EF762000145B95 /* RouteDrawers.swift */; };
+		FCD2106D24EF782600145B95 /* dataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD2106C24EF782600145B95 /* dataStructures.swift */; };
+		FCD2107124EFBFA900145B95 /* GeneratePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD2107024EFBFA900145B95 /* GeneratePath.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC736D952487AAB700636FDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC736D762487AAAF00636FDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC736D7D2487AAAF00636FDD;
+			remoteInfo = "Automatic Efficient Mowing Path";
+		};
+		FC736DA02487AAB700636FDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC736D762487AAAF00636FDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC736D7D2487AAAF00636FDD;
+			remoteInfo = "Automatic Efficient Mowing Path";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC3DEBF124E6B5BD003D6E65 /* GeneratePathOLD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratePathOLD.swift; sourceTree = "<group>"; };
+		FC736D7E2487AAAF00636FDD /* MowerRouteGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MowerRouteGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC736D812487AAAF00636FDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC736D832487AAAF00636FDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FC736D852487AAAF00636FDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC736D882487AAAF00636FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC736D8A2487AAB600636FDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC736D8D2487AAB600636FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC736D8F2487AAB600636FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC736D942487AAB700636FDD /* MowerRouteGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MowerRouteGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC736D982487AAB700636FDD /* Automatic_Efficient_Mowing_PathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Automatic_Efficient_Mowing_PathTests.swift; sourceTree = "<group>"; };
+		FC736D9A2487AAB700636FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC736D9F2487AAB700636FDD /* MowerRouteGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MowerRouteGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC736DA32487AAB700636FDD /* Automatic_Efficient_Mowing_PathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Automatic_Efficient_Mowing_PathUITests.swift; sourceTree = "<group>"; };
+		FC736DA52487AAB700636FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCD2106A24EF762000145B95 /* RouteDrawers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDrawers.swift; sourceTree = "<group>"; };
+		FCD2106C24EF782600145B95 /* dataStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataStructures.swift; sourceTree = "<group>"; };
+		FCD2107024EFBFA900145B95 /* GeneratePath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratePath.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC736D7B2487AAAF00636FDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC736D912487AAB700636FDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC736D9C2487AAB700636FDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC736D752487AAAF00636FDD = {
+			isa = PBXGroup;
+			children = (
+				FC736D802487AAAF00636FDD /* MowerRouteGenerator */,
+				FC736D972487AAB700636FDD /* Automatic Efficient Mowing PathTests */,
+				FC736DA22487AAB700636FDD /* Automatic Efficient Mowing PathUITests */,
+				FC736D7F2487AAAF00636FDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC736D7F2487AAAF00636FDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC736D7E2487AAAF00636FDD /* MowerRouteGenerator.app */,
+				FC736D942487AAB700636FDD /* MowerRouteGeneratorTests.xctest */,
+				FC736D9F2487AAB700636FDD /* MowerRouteGeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC736D802487AAAF00636FDD /* MowerRouteGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				FC736D812487AAAF00636FDD /* AppDelegate.swift */,
+				FC736D832487AAAF00636FDD /* SceneDelegate.swift */,
+				FC736D852487AAAF00636FDD /* ViewController.swift */,
+				FC736D872487AAAF00636FDD /* Main.storyboard */,
+				FC736D8A2487AAB600636FDD /* Assets.xcassets */,
+				FC736D8C2487AAB600636FDD /* LaunchScreen.storyboard */,
+				FC736D8F2487AAB600636FDD /* Info.plist */,
+				FC3DEBF124E6B5BD003D6E65 /* GeneratePathOLD.swift */,
+				FCD2106A24EF762000145B95 /* RouteDrawers.swift */,
+				FCD2106C24EF782600145B95 /* dataStructures.swift */,
+				FCD2107024EFBFA900145B95 /* GeneratePath.swift */,
+			);
+			path = MowerRouteGenerator;
+			sourceTree = "<group>";
+		};
+		FC736D972487AAB700636FDD /* Automatic Efficient Mowing PathTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC736D982487AAB700636FDD /* Automatic_Efficient_Mowing_PathTests.swift */,
+				FC736D9A2487AAB700636FDD /* Info.plist */,
+			);
+			path = "Automatic Efficient Mowing PathTests";
+			sourceTree = "<group>";
+		};
+		FC736DA22487AAB700636FDD /* Automatic Efficient Mowing PathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC736DA32487AAB700636FDD /* Automatic_Efficient_Mowing_PathUITests.swift */,
+				FC736DA52487AAB700636FDD /* Info.plist */,
+			);
+			path = "Automatic Efficient Mowing PathUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC736D7D2487AAAF00636FDD /* MowerRouteGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC736DA82487AAB700636FDD /* Build configuration list for PBXNativeTarget "MowerRouteGenerator" */;
+			buildPhases = (
+				FC736D7A2487AAAF00636FDD /* Sources */,
+				FC736D7B2487AAAF00636FDD /* Frameworks */,
+				FC736D7C2487AAAF00636FDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MowerRouteGenerator;
+			productName = "Automatic Efficient Mowing Path";
+			productReference = FC736D7E2487AAAF00636FDD /* MowerRouteGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC736D932487AAB700636FDD /* MowerRouteGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC736DAB2487AAB700636FDD /* Build configuration list for PBXNativeTarget "MowerRouteGeneratorTests" */;
+			buildPhases = (
+				FC736D902487AAB700636FDD /* Sources */,
+				FC736D912487AAB700636FDD /* Frameworks */,
+				FC736D922487AAB700636FDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC736D962487AAB700636FDD /* PBXTargetDependency */,
+			);
+			name = MowerRouteGeneratorTests;
+			productName = "Automatic Efficient Mowing PathTests";
+			productReference = FC736D942487AAB700636FDD /* MowerRouteGeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC736D9E2487AAB700636FDD /* MowerRouteGeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC736DAE2487AAB700636FDD /* Build configuration list for PBXNativeTarget "MowerRouteGeneratorUITests" */;
+			buildPhases = (
+				FC736D9B2487AAB700636FDD /* Sources */,
+				FC736D9C2487AAB700636FDD /* Frameworks */,
+				FC736D9D2487AAB700636FDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC736DA12487AAB700636FDD /* PBXTargetDependency */,
+			);
+			name = MowerRouteGeneratorUITests;
+			productName = "Automatic Efficient Mowing PathUITests";
+			productReference = FC736D9F2487AAB700636FDD /* MowerRouteGeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC736D762487AAAF00636FDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Kai Duncumb";
+				TargetAttributes = {
+					FC736D7D2487AAAF00636FDD = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					FC736D932487AAB700636FDD = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = FC736D7D2487AAAF00636FDD;
+					};
+					FC736D9E2487AAB700636FDD = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = FC736D7D2487AAAF00636FDD;
+					};
+				};
+			};
+			buildConfigurationList = FC736D792487AAAF00636FDD /* Build configuration list for PBXProject "MowerRouteGenerator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC736D752487AAAF00636FDD;
+			productRefGroup = FC736D7F2487AAAF00636FDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC736D7D2487AAAF00636FDD /* MowerRouteGenerator */,
+				FC736D932487AAB700636FDD /* MowerRouteGeneratorTests */,
+				FC736D9E2487AAB700636FDD /* MowerRouteGeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC736D7C2487AAAF00636FDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC736D8E2487AAB600636FDD /* LaunchScreen.storyboard in Resources */,
+				FC736D8B2487AAB600636FDD /* Assets.xcassets in Resources */,
+				FC736D892487AAAF00636FDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC736D922487AAB700636FDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC736D9D2487AAB700636FDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC736D7A2487AAAF00636FDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC736D862487AAAF00636FDD /* ViewController.swift in Sources */,
+				FC3DEBF224E6B5BD003D6E65 /* GeneratePathOLD.swift in Sources */,
+				FCD2106B24EF762000145B95 /* RouteDrawers.swift in Sources */,
+				FCD2106D24EF782600145B95 /* dataStructures.swift in Sources */,
+				FC736D822487AAAF00636FDD /* AppDelegate.swift in Sources */,
+				FCD2107124EFBFA900145B95 /* GeneratePath.swift in Sources */,
+				FC736D842487AAAF00636FDD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC736D902487AAB700636FDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC736D992487AAB700636FDD /* Automatic_Efficient_Mowing_PathTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC736D9B2487AAB700636FDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC736DA42487AAB700636FDD /* Automatic_Efficient_Mowing_PathUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC736D962487AAB700636FDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC736D7D2487AAAF00636FDD /* MowerRouteGenerator */;
+			targetProxy = FC736D952487AAB700636FDD /* PBXContainerItemProxy */;
+		};
+		FC736DA12487AAB700636FDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC736D7D2487AAAF00636FDD /* MowerRouteGenerator */;
+			targetProxy = FC736DA02487AAB700636FDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC736D872487AAAF00636FDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC736D882487AAAF00636FDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC736D8C2487AAB600636FDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC736D8D2487AAB600636FDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC736DA62487AAB700636FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC736DA72487AAB700636FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC736DA92487AAB700636FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/MowerRouteGenerator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kai.MowerRouteGenerator;
+				PRODUCT_NAME = MowerRouteGenerator;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC736DAA2487AAB700636FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/MowerRouteGenerator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kai.MowerRouteGenerator;
+				PRODUCT_NAME = MowerRouteGenerator;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC736DAC2487AAB700636FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Automatic Efficient Mowing PathTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kai.Automatic-Efficient-Mowing-PathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MowerRouteGenerator.app/MowerRouteGenerator";
+			};
+			name = Debug;
+		};
+		FC736DAD2487AAB700636FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Automatic Efficient Mowing PathTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kai.Automatic-Efficient-Mowing-PathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MowerRouteGenerator.app/MowerRouteGenerator";
+			};
+			name = Release;
+		};
+		FC736DAF2487AAB700636FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Automatic Efficient Mowing PathUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kai.Automatic-Efficient-Mowing-PathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Automatic Efficient Mowing Path";
+			};
+			name = Debug;
+		};
+		FC736DB02487AAB700636FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Automatic Efficient Mowing PathUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kai.Automatic-Efficient-Mowing-PathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Automatic Efficient Mowing Path";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC736D792487AAAF00636FDD /* Build configuration list for PBXProject "MowerRouteGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC736DA62487AAB700636FDD /* Debug */,
+				FC736DA72487AAB700636FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC736DA82487AAB700636FDD /* Build configuration list for PBXNativeTarget "MowerRouteGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC736DA92487AAB700636FDD /* Debug */,
+				FC736DAA2487AAB700636FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC736DAB2487AAB700636FDD /* Build configuration list for PBXNativeTarget "MowerRouteGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC736DAC2487AAB700636FDD /* Debug */,
+				FC736DAD2487AAB700636FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC736DAE2487AAB700636FDD /* Build configuration list for PBXNativeTarget "MowerRouteGeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC736DAF2487AAB700636FDD /* Debug */,
+				FC736DB02487AAB700636FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC736D762487AAAF00636FDD /* Project object */;
+}
